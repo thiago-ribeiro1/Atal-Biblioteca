@@ -1,6 +1,8 @@
 
 # 📚 Biblioteca Atal (Análise e Técnicas de Algoritmos)
 
+# Documentação
+
 **Estrutura de Dados Escolhida**
 
 Usamos um array dinâmico para guardar os livros na lista, que é basicamente uma estrutura que cresce automaticamente conforme novos livros são adicionados. No início, a lista começa com um tamanho que escolhemos (definido quando a SequentialList é criada), com capacidade inicial de 5 elementos. Quando ela fica cheia, a capacidade dobra, permitindo que a lista armazene mais livros sem limite fixo.
