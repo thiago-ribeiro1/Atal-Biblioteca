@@ -63,8 +63,9 @@ public class SequentialList {
     // Método para imprimir os livros da lista
     public void mostrarLista() {
         if (tamanho == 0) {
-            System.out.println("Lista vazia");
+            System.out.println("\nLista vazia");
         } else {
+            System.out.println("Lista de livros:\n");
             for (int i = 0; i < tamanho; i++) {
                 System.out.println(livros[i]);
             }

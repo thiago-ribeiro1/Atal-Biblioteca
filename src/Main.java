@@ -48,7 +48,6 @@ public class Main {
                     }
                     break;
                 case 4:
-                    System.out.println("Lista de livros:\n");
                     lista.mostrarLista();
                     break;
                 case 5:
