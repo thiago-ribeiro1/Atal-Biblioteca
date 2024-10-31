@@ -14,7 +14,9 @@ Essa escolha é boa para guardar itens em sequência e facilita operações como
 No método ordenarPorTituloEAutor(), usamos o Bubble Sort para organizar os livros, primeiro pelo título e, se dois títulos forem iguais, pelo nome do autor. Esse algoritmo é simples: ele percorre a lista várias vezes, trocando a posição de dois livros vizinhos sempre que eles estão na ordem errada. Esse processo continua até que a lista esteja completamente organizada e nenhuma troca adicional seja necessária.
 
 Embora o Bubble Sort não seja o mais rápido para listas muito grandes, ele é fácil de implementar e funciona bem para listas pequenas ou médias, como essa. A verificação com trocou ajuda a interromper o processo mais cedo, se possível, evitando voltas desnecessárias caso a lista já esteja ordenada antes do fim do processo.
+<br><br>
 
+## Sistema
 
 Sistema desenvolvido em **Java (JDK 17)** para gerenciar o acervo de uma biblioteca. Este projeto permite o **armazenamento**, **organização**, **busca** e **remoção** de livros.
 
