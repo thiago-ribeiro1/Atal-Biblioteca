@@ -8,6 +8,7 @@ Sistema desenvolvido em **Java (JDK 17)** para gerenciar o acervo de uma bibliot
 - **Armazenamento** de dados dos livros no sistema
 - **Organização** do acervo para facilitar a consulta
 - **Busca** de livros
+- **Remoção** de livros
 
 ## 📋 Especificações do Projeto
 
