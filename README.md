@@ -1,7 +1,7 @@
 
 # 📚 Biblioteca Atal (Análise e Técnicas de Algoritmos)
 
-Sistema desenvolvido em **Java (JDK 17)** para gerenciar o acervo de uma biblioteca. Este projeto permite o **armazenamento**, **organização** e **busca** de livros.
+Sistema desenvolvido em **Java (JDK 17)** para gerenciar o acervo de uma biblioteca. Este projeto permite o **armazenamento**, **organização**, **busca** e **remoção** de livros.
 
 ## 🚀 Funcionalidades
 
