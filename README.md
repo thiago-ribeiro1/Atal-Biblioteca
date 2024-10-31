@@ -10,6 +10,7 @@ Usamos um array dinâmico para guardar os livros na lista, que é basicamente um
 Essa escolha é boa para guardar itens em sequência e facilita operações como busca, adição e remoção de elementos, o que funciona bem para uma lista de livros que não muda o tempo todo. Um array dinâmico como esse é eficiente para acessar e buscar itens na ordem em que foram adicionados, mas pode ser menos eficiente para inserções e remoções frequentes em posições aleatórias da lista.
 
 - **Explicação sobre o Algoritmo de Ordenação**
+  
 No método ordenarPorTituloEAutor(), usamos o Bubble Sort para organizar os livros, primeiro pelo título e, se dois títulos forem iguais, pelo nome do autor. Esse algoritmo é simples: ele percorre a lista várias vezes, trocando a posição de dois livros vizinhos sempre que eles estão na ordem errada. Esse processo continua até que a lista esteja completamente organizada e nenhuma troca adicional seja necessária.
 
 Embora o Bubble Sort não seja o mais rápido para listas muito grandes, ele é fácil de implementar e funciona bem para listas pequenas ou médias, como essa. A verificação com trocou ajuda a interromper o processo mais cedo, se possível, evitando voltas desnecessárias caso a lista já esteja ordenada antes do fim do processo.
