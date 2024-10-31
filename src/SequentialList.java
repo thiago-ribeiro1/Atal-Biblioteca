@@ -9,7 +9,7 @@ public class SequentialList {
         this.tamanho = 0;
     }
 
-    //TODO Método para adicionar um livro à lista
+    // Método para adicionar um livro à lista
     public void adicionar(Book livro) {
         if (tamanho == livros.length) {
             aumentarCapacidade();
@@ -18,7 +18,7 @@ public class SequentialList {
         tamanho++;
     }
 
-    //TODO Método para remover um livro da lista (pelo índice)
+    // Método para remover um livro da lista (pelo índice)
     public void remover(int index) {
         if (index >= 0 && index < tamanho) {
             for (int i = index; i < tamanho - 1; i++) {
@@ -50,7 +50,7 @@ public class SequentialList {
         }
     }
 
-    //TODO Método auxiliar para aumentar a capacidade da lista
+    // Método auxiliar para aumentar a capacidade da lista
     private void aumentarCapacidade() {
         int novaCapacidade = livros.length * 2;
         Book[] novoArray = new Book[novaCapacidade];
@@ -60,7 +60,7 @@ public class SequentialList {
         livros = novoArray;
     }
 
-    //TODO Método para imprimir os livros da lista
+    // Método para imprimir os livros da lista
     public void mostrarLista() {
         if (tamanho == 0) {
             System.out.println("Lista vazia");
@@ -72,7 +72,7 @@ public class SequentialList {
 
     }
 
-    //TODO Método para ordenar a lista por título e autor
+    // Método para ordenar a lista por título e autor
     public void ordenarPorTituloEAutor() {
         boolean trocou;
         //quantidade de vezes que o codigo vai ser executado
@@ -95,7 +95,7 @@ public class SequentialList {
         }
     }
 
-    //TODO Método auxiliar para trocar dois livros de posição
+    // Método auxiliar para trocar dois livros de posição
     private void trocarLivros(int i, int j) {
         Book temp = livros[i];
         livros[i] = livros[j];
