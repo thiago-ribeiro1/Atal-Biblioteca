@@ -15,6 +15,8 @@ No método ordenarPorTituloEAutor(), usamos o Bubble Sort para organizar os livr
 
 O Bubble Sort pode não ser o mais rápido para listas muito grandes, mas ele pode ser fácil de implementar e funciona bem para listas pequenas ou médias, como essa. A verificação com trocou ajuda a interromper o processo mais cedo, se possível, evitando voltas desnecessárias caso a lista já esteja ordenada antes do fim do processo.
 
+A complexidade do Bubble Sort é O(n²) no pior e no caso médio, devido às várias passagens pela lista e à comparação de cada par de elementos.
+
 <br>
 
 ## Aplicação
