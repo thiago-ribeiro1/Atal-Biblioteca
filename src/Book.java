@@ -54,11 +54,11 @@ public class   Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "author = '" + author + '\'' +
-                ", title = '" + title + '\'' +
-                ", creationDatel = " + creationDate +
-                ", yearOfRelease = " + yearOfRelease +
+        return "Livro{" +
+                "Autor = '" + author + '\'' +
+                ", Título = '" + title + '\'' +
+                ", dataDeCriacao = " + creationDate +
+                ", anoDeLancamento = " + yearOfRelease +
                 '}';
     }
 }
