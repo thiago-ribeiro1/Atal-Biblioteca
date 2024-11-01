@@ -17,7 +17,7 @@ O Bubble Sort pode não ser o mais rápido para listas muito grandes, mas ele po
 
 <br>
 
-## Sistema
+## Aplicação
 
 Sistema desenvolvido em Java (JDK 17) para gerenciar o acervo de uma biblioteca. Este projeto permite o armazenamento, organização, busca e remoção de livros.
 
